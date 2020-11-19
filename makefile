@@ -1,2 +1,2 @@
-test: link yuesefu 
-    gcc link yuesefu -o test
+test: Link Yuesefu 
+    gcc Link Yuesefu -o test
