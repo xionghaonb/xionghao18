@@ -1,0 +1,20 @@
+# xionghao18-a1921
+ int main() {
+
+  STACK S;
+
+  initStack(&S);
+
+  pushStack(&S);
+
+  pushStack(&S);
+
+  pushStack(&S);
+
+  popStack(&S);
+
+  traversalStack(&S);
+
+  return 0;
+
+ }
