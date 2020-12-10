@@ -1,2 +1,6 @@
-testlistg: listg.h listg.c testlistg.c
-	gcc testlistg.c -o test
+all: queue
+testqueue: queue.c testqueue.c
+         gcc queue.c testqueue.c -o testqueue
+
+clean: 
+         rm testqueue
